@@ -4,6 +4,8 @@ import Routes from '~/routes';
 
 import GlobalStyle from '~/styles/global';
 
+import './dependencies';
+
 function App() {
   return (
     <>

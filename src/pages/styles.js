@@ -10,7 +10,7 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
-export const Content = styled.main`
+export const Main = styled.main`
   width: 100%;
   max-width: 1366px;
   display: flex;
@@ -18,3 +18,5 @@ export const Content = styled.main`
   margin: auto;
   padding: 30px;
 `;
+
+export const Content = styled.div``;
