@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { scaleDown as BurgerMenu } from 'react-burger-menu';
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 
@@ -11,7 +12,14 @@ export default function Menu() {
       pageWrapId="main"
       width={300}
     >
-      <div>eu sou um menu</div>
+      <Link to="/home">
+        <Icon icon="home" />
+        <span>Home</span>
+      </Link>
+      <Link to="/calendar">
+        <Icon icon="calendar-alt" />
+        <span>Calendário</span>
+      </Link>
     </BurgerMenu>
   );
 }

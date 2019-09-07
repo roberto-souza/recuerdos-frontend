@@ -67,7 +67,28 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Individual item */
 .bm-item {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #b8b7ad;
+  cursor: pointer;
   display: inline-block;
+  padding: 5px 0;
+  margin: 8px 0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.bm-item:hover {
+  color: #740000;
+  font-weight: bold;
+  box-shadow: 3px 3px 2px -1px #740000;
+}
+
+.bm-item svg {
+  width: 25px !important;
+}
+
+.bm-item span {
+  margin-left: 10px;
 }
 
 /* Styling of overlay */
